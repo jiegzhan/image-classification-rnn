@@ -10,7 +10,7 @@ n_steps = 28 # timesteps
 n_hidden = 128 # hidden layer num of features
 n_classes = 10 # MNIST total classes (0-9 digits)
 
-def RNN(x, weights, biases):
+def rnn_model(x, weights, biases):
 	x = tf.transpose(x, [1, 0, 2])
 	x = tf.reshape(x, [-1, n_input])
 	x = tf.split(0, n_steps, x)
@@ -30,7 +30,7 @@ def predict():
 	weights = tf.Variable(tf.random_normal([n_hidden, n_classes]), name='weights')
 	biases = tf.Variable(tf.random_normal([n_classes]), name='biases')
 
-	pred = RNN(x, weights, biases)
+	pred = rnn_model(x, weights, biases)
 	correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
 	accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
