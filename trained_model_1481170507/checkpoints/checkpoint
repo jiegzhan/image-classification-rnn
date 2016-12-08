@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/ubuntu/image-classification-rnn/trained_model_1481170507/checkpoints/model-150"
+all_model_checkpoint_paths: "/home/ubuntu/image-classification-rnn/trained_model_1481170507/checkpoints/model-110"
+all_model_checkpoint_paths: "/home/ubuntu/image-classification-rnn/trained_model_1481170507/checkpoints/model-120"
+all_model_checkpoint_paths: "/home/ubuntu/image-classification-rnn/trained_model_1481170507/checkpoints/model-130"
+all_model_checkpoint_paths: "/home/ubuntu/image-classification-rnn/trained_model_1481170507/checkpoints/model-140"
+all_model_checkpoint_paths: "/home/ubuntu/image-classification-rnn/trained_model_1481170507/checkpoints/model-150"
