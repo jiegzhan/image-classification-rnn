@@ -5,6 +5,10 @@
  - This is a **multi-class image classification** problem.
  - The purpose of this project is to **classify MNIST into 10 classes**. 
  - The model was built with **Recurrent Neural Network (RNN: LSTM)** on **Tensorflow**.
+ 
+### Data:
+
+  - The MNIST dataset was saved in the ./data/ directory.
 
 ### Train:
 
