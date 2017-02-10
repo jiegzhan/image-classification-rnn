@@ -12,7 +12,7 @@
 
 ### Train:
 
- - Command: python3 train.py parameters.file
+ - Command: python3 train.py parameters.json
  - Example: ```python3 train.py ./parameters.json```
  
  A directory will be created during training, and the model will be saved in this directory. 
